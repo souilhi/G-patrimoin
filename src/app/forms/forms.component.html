@@ -1,0 +1,83 @@
+<div  class="register-form" id="register-form" >
+						
+    <div class="form-row">
+      <div class="form-group">
+        <div class="form-input">
+          <label for="first_name" class="required">Nom</label>
+          <input type="text" name="first_name" id="first_name" #first_name>
+        </div>
+        <div class="form-input">
+          <label for="last_name" class="required">Prénom</label>
+          <input type="text" name="last_name" id="last_name">
+        </div>
+        <div class="form-input">
+          <label for="company" class="required">Code postal</label>
+          <input type="text" name="company" id="company">
+        </div>
+        <div class="form-input">
+          <label for="email" class="required">Email</label>
+          <input type="text" name="email" id="email">
+        </div>
+        <div class="form-input">
+          <label for="phone_number" class="required">Téléphone</label>
+          <input type="text" name="phone_number" id="phone_number">
+        </div>
+      </div>
+  
+    </div>
+    <div class="form-radio">
+         <div class="label-flex">
+          <label for="payment"> Que recherchez vous ? * </label>
+          
+        </div>
+        <div class="form-radio-group">            
+          <div class="form-radio-item">
+            <input type="radio" name="payment" id="loi_pinel" checked="">
+            <label for="cash">Loi Pinel</label>
+            <span class="check"></span>
+          </div>
+          <div class="form-radio-item">
+            <input type="radio" name="payment" id="R_etudiant" >
+            <label for="cash">Résidences d'etudiants</label>
+            <span class="check"></span>
+          </div>
+          <div class="form-radio-item">
+            <input type="radio" name="payment" id="cheque">
+            <label for="cheque">Résidences d'affaires</label>
+            <span class="check"></span>
+          </div>
+          
+          <div class="form-radio-item">
+            <input type="radio" name="payment" id="rd">
+            <label for="rd"> Résidences Tourismes</label>
+            <span class="check"></span>
+          </div>
+          <div class="form-radio-item">
+            <input type="radio" name="payment" id="demand">
+            <label for="demand">Résidences Seniors</label>
+            <span class="check"></span>
+          </div>
+          <div class="form-radio-item">
+            <input type="radio" name="payment" id="rd1">
+            <label for="rd1">  Ehpad</label>
+            <span class="check"></span>
+          </div>
+        </div> 
+      </div>
+    <div class="Epargne-m">
+      <label>Epargne mensuelle*</label>
+      
+      
+    </div>
+    <div class="Imposition-An*">
+      <label>Imposition annuelle*</label>
+      
+    </div>
+    <div>
+    
+</div>
+    <div class="form-submit">
+      <button   class="btn btn-success" id="submit"  (click)="onAddInfo()" >Valider</button>
+      
+    </div>
+  </div>
